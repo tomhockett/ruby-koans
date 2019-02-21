@@ -105,6 +105,8 @@ EOS
     # plus equals operator (+=) when building up strings.  Why?
 
     # plus equals (+=) creates a new object_id in memory and is not efficient. The shovel (<<) keeps the same object_id
+
+    # https://stackoverflow.com/questions/4684446/why-is-the-shovel-operator-preferred-over-plus-equals-when-building-a
   end
 
   def test_double_quoted_string_interpret_escape_characters
